@@ -20,8 +20,8 @@ void swap_max(int a[], int x, int y)
 
 void ssort(int p[], int z) 
 {
-    for (int i = 0; i < m; i++) 
+    for (int i = 0; i < z; i++) 
     {
-        swap_max(p, m, i);
+        swap_max(p, z, i);
     }
 }
